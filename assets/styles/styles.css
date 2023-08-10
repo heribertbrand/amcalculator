@@ -19,20 +19,6 @@
   gap: 3rem;
 }
 
-/* #top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
-  background-color: darkgoldenrod;
-  margin: 0 auto;
-} */
-/* #middle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-} */
 #calc {
   display: flex;
   align-items: center;
@@ -70,13 +56,13 @@
   font-size: 20px;
 }
 
-#btn1, 
-#btn2, 
-#btn3, 
-#btn4, 
-#btn9, 
-#btn10, 
-#btn14, 
+#btn1,
+#btn2,
+#btn3,
+#btn4,
+#btn9,
+#btn10,
+#btn14,
 #btn15 {
   background-color: #ffb700bf;
   color: #fff;
@@ -92,14 +78,14 @@
   color: #555;
 }
 
-#btn6, 
-#btn7, 
-#btn8, 
-#btn11, 
-#btn12, 
-#btn13, 
-#btn16, 
-#btn17, 
+#btn6,
+#btn7,
+#btn8,
+#btn11,
+#btn12,
+#btn13,
+#btn16,
+#btn17,
 #btn18 {
   background-color: #4a4a4a80;
 }
