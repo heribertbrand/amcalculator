@@ -10,7 +10,7 @@
   display: flex;
   align-content: center;
   flex-direction: column;
-  background-image: radial-gradient(#01ffff, #fff);
+  background-image: radial-gradient(#0cffff, #fff);
   width: fit-content;
   /* height: 95vh; */
   margin: 0 auto;
@@ -25,7 +25,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 50%;
+  width: 80%;
   height: 30%;
   margin:  auto;
   border: 2.5px solid darkgoldenrod;
@@ -101,7 +101,7 @@
 
 h5 {
   margin-top: -3.5rem;
-  align-self: flex-end;
+  align-self: center;
   justify-content: center;
   color: #00000093;
 }
