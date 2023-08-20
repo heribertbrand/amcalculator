@@ -12,25 +12,34 @@
   flex-direction: column;
   background-image: radial-gradient(#0cffff, #fff);
   width: fit-content;
-  /* height: 95vh; */
   margin: 0 auto;
   border: 3px solid darkgoldenrod;
   border-radius: 25px;
   gap: 3rem;
-  /* overflow: hidden; */
+  height: 100%;
 }
 
-#calc {
+#screen {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 80%;
-  height: 30%;
-  margin:  auto;
+  width: 85%;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 50px;
+} 
+
+#screen input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 85%;
+  margin: 0 auto;
+  background-color: #fff;
   border: 2.5px solid darkgoldenrod;
   border-radius: 20px;
-  /* padding: 15px; */
   font-size: 50px;
 }
 
@@ -40,10 +49,8 @@
   grid-template-rows: repeat(5fr, 50px);
   gap: 1rem;
   row-gap: 1.8rem;
-  margin: 0 auto;
-  /* max-width: 394PX; */
+  margin: auto;
   width: fit-content;
-  /* width: 394PX; */
 }
 
 .btns {
