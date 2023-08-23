@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 15px;
+  box-sizing: border-box;
+  font-family: "Kaushan Script", cursive;
+  font-family: "Noto Sans Vithkuqi", sans-serif;
+}
+
+#outer {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  background-image: radial-gradient(#0cffff, #fff);
+  width: fit-content;
+  margin: 0 auto;
+  border: 3px solid darkgoldenrod;
+  border-radius: 25px;
+  gap: 3rem;
+  height: 100%;
+}
+
+#screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 85%;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 50px;
+}
+
+#screen input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 85%;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 2.5px solid darkgoldenrod;
+  border-radius: 20px;
+  font-size: 50px;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: repeat(5fr, 50px);
+  grid-template-rows: repeat(5fr, 50px);
+  gap: 1rem;
+  row-gap: 1.8rem;
+  margin: auto;
+  width: fit-content;
+}
+
+.btns {
+  border: 2px solid darkgoldenrod;
+  border-radius: 10px;
+  font-weight: 900;
+}
+
+#btn19 {
+  grid-column: 4 / span 2;
+  grid-row: 4 / span 2;
+  font-size: 30px;
+}
+
+#btn20 {
+  grid-column: 1 / span 2;
+  font-size: 20px;
+}
+
+#btn1,
+#btn2,
+#btn3,
+#btn4,
+#btn9,
+#btn10,
+#btn14,
+#btn15 {
+  background-color: #ffb700bf;
+  color: #fff;
+}
+
+#btn5 {
+  background-color: #36f2f2;
+  color: #555;
+}
+
+#btn19,
+#btn20,
+#btn21 {
+  background-color: #36f2f2;
+  color: #555;
+}
+
+#btn6,
+#btn7,
+#btn8,
+#btn11,
+#btn12,
+#btn13,
+#btn16,
+#btn17,
+#btn18 {
+  background-color: #4a4a4a80;
+}
+
+h5 {
+  margin-top: -3.5rem;
+  align-self: center;
+  justify-content: center;
+  color: #00000093;
+}
